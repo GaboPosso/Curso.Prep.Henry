@@ -1,0 +1,53 @@
+FOR LOOP	
+
+It is a conditional loop where an action is repeated meanwhile a conditions is filled, it has this structure:
+
+for (Variable declaration; condition; increment){
+	Statement}
+f.e. 
+
+for( i = 0; i <= 10; i++){
+	console.log(i)
+}
+It lets 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+&& AND 
+
+AND is a comparisson operation that will let True boolean value if two expressions are true: 
+
+f.e. 
+
+if( (1 + 1 === 2 && 1 === 1) {
+	console.log('this code appears')
+	} else {
+		console.log('this does not appear')
+	}
+>>This code appears - Because both expressions are true, if one of the expressions don´t fulfill the condition, it will be false.
+
+
+|| OR
+
+OR is a comparison operation that will let FALSE boolean value if one of the expressions is TRUE:
+
+f.e. 
+
+1 + 1 === 2 || 5 < 4 >> TRUE
+
+! NOT
+
+NOT is a comparison operation that means the opossite of the expression, indeed if the statement is TRUE, the expression with added ! will be FALSE.
+
+f.e.
+
+1 !== 1;  //false
+1 !== '1'; //true 
